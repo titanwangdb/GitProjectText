@@ -1,0 +1,10 @@
+var，let，const三个声明变量的区别和优缺点
+https://www.tslang.cn/docs/handbook/variable-declarations.html
+
+变量声明
+let和const是JavaScript里相对较新的变量声明方式。 
+let在很多方面与var是相似的，但是可以帮助大家避免在JavaScript里常见一些问题。 
+const是对let的一个增强，它能阻止对一个变量再次赋值。
+
+因为TypeScript是JavaScript的超集，所以它本身就支持let和const。 
+推荐使用它们来代替 var

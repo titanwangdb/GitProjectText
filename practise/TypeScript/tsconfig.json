@@ -1,0 +1,27 @@
+{
+    /*
+    "files": [
+        "./src/*.ts"
+    ]
+    ,
+	"exclude": [
+	    "node_modules",
+	    "Demo"
+	],
+    */
+    "include": [
+	    "./src/*.ts"
+	],
+    "compilerOptions": {
+        /*
+        "module": "system",
+        "removeComments": true,
+		"preserveConstEnums": true,
+		"sourceMap": true,
+        "outFile": "./built/tsc.js"
+        */
+        "noImplicitAny": true,
+        "target": "es2015",        /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', or 'ESNEXT'. */
+        "outDir": "dist"
+    }
+}

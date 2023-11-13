@@ -1,0 +1,8 @@
+
+tsc 编译命令
+
+// 指定ts文件转换目录以及文件名
+tsc .\TS\TS_Demo.ts --outFile .\dict\TS_Demo.js
+
+// 删除注释
+tsc --removeComments

@@ -1,0 +1,55 @@
+
+Gulp    https://typescript.bootcss.com/tutorials/gulp.html
+
+这篇快速上手指南将教你如何使用Gulp构建TypeScript，和如何在Gulp管道里添加Browserify，uglify或Watchify。 它还包涵了Babel的功能，通过使用Babelify。
+
+// 安装gulp-cli
+npm install -g gulp-cli
+
+// 安装typescript，gulp和gulp-typescript
+npm install --save-dev typescript gulp gulp-typescript
+
+// tsconfig.json
+
+// gulpfile.js
+
+// command
+gulp
+node dist/main.js
+
+// showHello调用sayHello函数更改页面上段落的文字
+    现在，让我们把这个工程由Node.js环境移到浏览器环境里。 
+    因此，我们将把所有模块捆绑成一个JavaScript文件。 所幸，这正是Browserify要做的事情。 
+    更方便的是，它支持Node.js的CommonJS模块，这也正是TypeScript默认生成的类型。 
+    也就是说TypeScript和Node.js的设置不需要改变就可以移植到浏览器里。
+// Browserify 安装Browserify，tsify和vinyl-source-stream
+npm install --save-dev browserify tsify vinyl-source-stream
+
+// command
+gulp
+浏览器里打开dist/index.html
+
+
+
+// Watchify, 启动Gulp并保持运行状态，当你保存文件时自动编译。 帮你进入到编辑-保存-刷新浏览器的循环中
+npm install --save-dev watchify gulp-util
+
+// command
+gulp
+浏览器里打开dist/index.html
+
+
+
+
+// Uglify, 混淆代码
+npm install --save-dev gulp-uglify vinyl-buffer gulp-sourcemaps
+
+
+
+
+
+// Babel, 编译器，将ES2015及以上版本的代码转换成ES5和ES3
+npm install --save-dev babelify babel-core babel-preset-es2015 vinyl-buffer gulp-sourcemaps
+
+
+
