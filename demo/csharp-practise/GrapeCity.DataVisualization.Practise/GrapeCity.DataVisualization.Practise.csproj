@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp6.0</TargetFramework>
+    <RootNamespace>GrapeCity.DataVisualization.Practise</RootNamespace>
+    <AssemblyName>GrapeCity.DataVisualization.Practise</AssemblyName>
+    <Nullable>enable</Nullable>
+    <NoWarn>CA1822;IDE0060;SA0001;SA1600;SA1602;SA1633;</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JavaScriptEngineSwitcher.Core" Version="3.21.0" />
+    <PackageReference Include="JavaScriptEngineSwitcher.V8" Version="3.21.5" />
+    <PackageReference Include="Microsoft.ClearScript.Core" Version="7.4.3" />
+    <PackageReference Include="Microsoft.ClearScript.V8.ICUData" Version="7.4.3" />
+    <PackageReference Include="Microsoft.ClearScript.V8.Native.win-x64" Version="7.4.3" />
+    <PackageReference Include="Microsoft.ClearScript.Windows.Core" Version="7.4.3" />
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Console" Version="5.0.0" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Microsoft.ClearScript.V8" Version="7.4.3" />
+  </ItemGroup>
+
+</Project>
