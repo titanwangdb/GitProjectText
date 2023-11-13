@@ -1,13 +1,11 @@
 
 .vscode
-
+.vscode
+bin
+obj
 node_modules
-package-lock.json
-target
-lib
-maven-repo
-src/main/webapp
-
-dict
 dist
+target
+
+package-lock.json
 TS/*.js
